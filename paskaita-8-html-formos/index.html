@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>html formos</title>
+  </head>
+  <body>
+    <form action="#" method="post"></form>
+    <fieldset>
+      <legend>Kazkas</legend>
+      <input type="text" required value="Labas" maxlength="10" />
+      <br />
+      <input
+        type="email"
+        required
+        multiple
+        placeholder="email"
+        autocomplete="email"
+      />
+      <br />
+      <input type="number" autofocus min="20" max="30" />
+      <br />
+      <input type="password" required placeholder="Slaptazodis" />
+      <br />
+      <input type="text" />
+      <textarea name="" id="" cols="30" rows="10"></textarea>
+      <br />
+      <label for="ar-as-alkanas">Mano checkbox</label>
+      <input type="checkbox" id="ar-as-alkanas" />
+    </fieldset>
+    <br />
+    <fieldset>
+      <label for="piramas">pirmas</label>
+      <input type="radio" id="pirmas" value="1" name="pirmas" />
+      <br />
+      <label for="antras">antras</label>
+      <input type="radio" id="antras" value="2" name="pirmas" />
+      <br />
+      <label for="trecias">trecias</label>
+      <input type="radio" id="trecias" value="3" name="pirmas" />
+    </fieldset>
+    <input type="file" accept=".png" />
+    <button type="submit">Submit</button>
+    <button type="reset">Resset</button>
+    <select name="car-or-dog" id="">
+      <option value="this person loves cats">Cat</option>
+      <option value="this person loves dogs">Dog</option>
+    </select>
+    <br />
+    <input type="color" />
+    <input type="text" hidden />
+    <input type="number" step="5" min="0" max="100" />
+  </body>
+</html>

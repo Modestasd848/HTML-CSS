@@ -1,0 +1,16 @@
+html {
+  font-size: 12px;
+  font-family: "Roboto", sans-serif;
+}
+
+.blue {
+  color: blue;
+}
+
+.green {
+  color: green;
+}
+
+.italic {
+  font-style: italic;
+}

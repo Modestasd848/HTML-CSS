@@ -1,0 +1,41 @@
+form {
+  border: 3px solid rgba(173, 173, 173, 0.5);
+  border-radius: 15px;
+  width: 70%;
+  margin: auto;
+  text-align: right;
+  padding: 10px;
+}
+
+input,
+select,
+fieldset {
+  width: 200px;
+  box-sizing: border-box;
+  margin-right: 0;
+}
+
+fieldset {
+  margin-left: auto;
+  text-align: left;
+}
+
+input[type="radio"] {
+  width: auto;
+}
+
+h1,
+h2,
+p {
+  text-align: left;
+}
+
+#data-picker-label {
+  margin-right: 200px;
+}
+
+button {
+  display: block;
+  margin: auto;
+  margin-top: 20px;
+}

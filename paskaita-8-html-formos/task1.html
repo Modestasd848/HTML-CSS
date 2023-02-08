@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form action="https://formspree.io/f/xvoyvyqj" method="post">
+      <h1>Payment Information</h1>
+      <p>Required fields are followed by *</p>
+      <h2>Contact Information</h2>
+      <fieldset>
+        <legend>Title</legend>
+        <input type="radio" name="title" id="mister" value="mister" />
+        <label for="mister">Mister</label>
+        <br />
+        <input type="radio" name="title" id="miss" value="mister" />
+        <label for="miss">Miss</label>
+      </fieldset>
+      <label for="name-input">Name *</label>
+      <input type="text" id="name-input" required name="name" />
+      <br />
+      <label for="email-input">E-mail *</label>
+      <input type="email" id="email-input" required name="email" />
+      <br />
+      <label for="password-input">Password *</label>
+      <input type="password" id="password-input" required />
+      <br />
+      <h2>Payment Informatiom</h2>
+      <label for="card-tyoe-dropdown">Card Type</label>
+      <select name="card-type" id="card-tyoe-dropdown">
+        <option value="visa">Visa</option>
+        <option value="mastercard">Mastercard</option>
+        <option value="maestro">Maestro</option>
+      </select>
+      <br />
+      <label for="card-number">Card Number *</label>
+      <input
+        type="Number"
+        min="1000000000000000"
+        max="9999999999999999"
+        required
+        name="card-number"
+      />
+      <br />
+      <label for="date-picker">Experation Date *</label>
+      <input type="date" id="date-picker" required />
+      <br />
+      <label id="data-picker-label" for="date-picker"
+        ><i>formatted as mm/yy</i></label
+      >
+      <br />
+      <button type="submit">Validate The Payment</button>
+    </form>
+  </body>
+</html>

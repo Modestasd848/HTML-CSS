@@ -1,0 +1,60 @@
+form {
+  border: 3px solid rgba(173, 173, 173, 0.5);
+  border-radius: 15px;
+  width: 70%;
+  margin: auto;
+  text-align: right;
+  padding: 10px;
+}
+
+input,
+select,
+fieldset {
+  width: 200px;
+  box-sizing: border-box;
+  margin-top: 15px;
+}
+
+input[type="radio"] {
+  width: auto;
+  background-color: yellow;
+}
+
+fieldset {
+  margin-left: auto;
+  text-align: left;
+  margin-right: 0;
+}
+
+h1,
+h2,
+p {
+  text-align: left;
+}
+
+#date-picker-label {
+  margin-right: 200px;
+}
+
+button {
+  display: block;
+  margin: auto;
+  margin-top: 20px;
+  color: white;
+  background-color: green;
+  border: none;
+}
+
+input:focus {
+  outline: 3px solid yellow;
+  background-color: lightgray;
+}
+
+input [type="text"],
+[type="email"]:invalid {
+  outline: 3px solid red;
+}
+
+input[type="text"]:valid {
+  outline: 5px solid green;
+}
